@@ -1,0 +1,55 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #4848ec;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #555;
+}
+
+.favorites ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.favorites li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Ссылки */
+.social-link p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.social-link a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.social-link a:hover {
+    text-decoration: underline;
+}
